@@ -8,13 +8,13 @@
   margin-bottom: 3px;
 }
 
-.header-right a{
+.header-right a {
   color:inherit;
   font-weight:500;
 }
 
 @media screen and (max-width: 767px) {
-  .header-container div{
+  .header-container div {
     text-align: center;
   }
 
@@ -28,17 +28,15 @@
 }
 
 .profile-img {
-  width: 200px;
+  width: 300px;
   height: 200px;
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
-  border-radius: 100px;
+  border-radius: 0; /* Remove rounded corners for rectangle */
   background-size: cover;
   background-position: center;
-  background-repeat: repeat, no-repeat;
-  -moz-box-shadow: inset 0 0 20px #636161;
-  -webkit-box-shadow: inset 0 0 20px #636161;
+  background-repeat: no-repeat; /* Ensure image doesn't repeat */
   box-shadow: inset 0 0 20px #636161;
 }
 
