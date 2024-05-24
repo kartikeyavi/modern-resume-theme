@@ -179,10 +179,14 @@ body {
 }
 
 .header-right p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: right;
 }
 
+.header-left p {
+  font-size: 20px;
+  text-align: left;
+}
 @media print {
   a[href]:after {
     content: none !important;
