@@ -169,11 +169,13 @@ body {
 .header-right {
   text-align: right;
   width: fit-content;
+  float: right;
 }
 
 .header-left {
   margin-top: 00px;
   width: fit-content;
+  float: left;
 
   @media print {
     margin-top: 0px;
@@ -183,7 +185,7 @@ body {
 .header-right p {
   font-size: 1.6rem;
   text-align: right;
-
+  float: right;
 }
 
 .header-left p {
