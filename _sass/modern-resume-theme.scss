@@ -33,10 +33,10 @@
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
-  border-radius: 0; /* Remove rounded corners for rectangle */
+  border-radius: 0;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; /* Ensure image doesn't repeat */
+  background-repeat: no-repeat; 
   box-shadow: inset 0 0 20px #636161;
 }
 
@@ -48,7 +48,7 @@
 
 .border-weak  {
   padding-bottom: 8px;
-  border-bottom: dashed 1px #CCCCCC;
+  border-bottom: solid 2px #000000;
 }
 
 .layout {
