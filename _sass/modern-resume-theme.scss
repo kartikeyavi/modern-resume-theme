@@ -5,21 +5,14 @@
 @import "icons";
 
 .header-right p {
-  margin-bottom: 3px;
+  margin-top: 0px;
+  max-width: 370px;
 }
 
 .header-right a {
   color:inherit;
   font-weight:500;
-}
-
-.header-left p {
-  margin-top: 0px;
-}
-
-.header-left a {
-  color:inherit;
-  font-weight:700;
+  max-width: 370px;
 }
 
 @media screen and (max-width: 767px) {
@@ -31,7 +24,7 @@
     text-align: center;
   }
 
-  .header-left p {
+  .header-left {
     margin-top: 0px;
   }
 }
