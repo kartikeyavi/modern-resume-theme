@@ -168,10 +168,12 @@ body {
 
 .header-right {
   text-align: right;
+  max-width: 350;
 }
 
 .header-left {
-  margin-top: 30px;
+  margin-top: 00px;
+  
 
   @media print {
     margin-top: 0px;
