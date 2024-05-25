@@ -108,17 +108,23 @@
 
       {%- if site.email -%}
         <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+          <a>
+            {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
+          </a>  
         </p>
       {%- endif -%}
       {%- if site.phone -%}
         <p>
-          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+          <a>
+            {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
+          </a>  
         </p>
       {%- endif -%}
       {%- if site.website -%}
         <p>
-          {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          <a>
+            {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+          </a>
         </p>
       {%- endif -%}
     </div>
