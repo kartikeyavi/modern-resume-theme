@@ -43,7 +43,6 @@
   height: 60px;
   min-width: 0;
   padding: 0;
-  opacity: 0;
   color: #e6e6e6;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
@@ -55,7 +54,6 @@
 }
 
 .button--sacnite:hover::before {
-  opacity: 0;
   box-shadow: inset 0 0 0 2px #e6e6e6;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
