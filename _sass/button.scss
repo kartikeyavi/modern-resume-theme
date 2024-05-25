@@ -43,25 +43,25 @@
   height: 60px;
   min-width: 0;
   padding: 0;
-  color: #e6e6e6;
+  color: #fff;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 
 .button--sacnite:hover {
-  color: #e6e6e6;
+  color: #fff;
 
 }
 
 .button--sacnite:hover::before {
-  box-shadow: inset 0 0 0 2px #e6e6e6;
+  box-shadow: inset 0 0 0 2px #fff;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
 }
 
 .dark {
   .button--sacnite::before {
-    box-shadow: inset 0 0 0 35px #e6e6e6;
+    box-shadow: inset 0 0 0 35px #fff;
   }
 
   .button.button--sacnite {
@@ -73,6 +73,6 @@
   }
 
   .button--sacnite:hover::before {
-    box-shadow: inset 0 0 0 2px #e6e6e6;
+    box-shadow: inset 0 0 0 2px #fff;
   }
 }
