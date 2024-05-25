@@ -122,13 +122,16 @@
 
       {%- if site.email -%}
       <p>
-        {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email |escape }}</a>
+        {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email
+          |escape }}</a>
       </p>
+      <br>
       {%- endif -%}
       {%- if site.phone -%}
       <p>
         {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
       </p>
+      <br>
       {%- endif -%}
       {%- if site.website -%}
       <p>
