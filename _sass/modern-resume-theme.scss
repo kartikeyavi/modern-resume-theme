@@ -10,18 +10,18 @@
   margin-top: 1px;
   float: right;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .header-right a {
   color:inherit;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   width: fit-content;
   float: right
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 710px) {
   .header-container div {
     text-align: center;
   }
@@ -88,7 +88,7 @@
       }
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 710px) {
       text-align: center!important;
 
       p {
@@ -136,7 +136,7 @@
 }
 
 .layout-left, .layout-right {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 710px) {
     flex-direction: column;
   }
 
