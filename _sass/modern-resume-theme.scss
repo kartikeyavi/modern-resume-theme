@@ -3,17 +3,18 @@
 @import "type";
 @import "dark";
 @import "icons";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 .header-right p {
   margin-top: 1px;
   float: right;
-  font-family: "Rubik Mono One", monospace;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 100;
 }
 
 .header-right a {
   color:inherit;
-  font-family: "Rubik Mono One", monospace;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 100;
   width: fit-content;
   float: right
