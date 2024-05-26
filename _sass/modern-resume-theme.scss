@@ -3,19 +3,19 @@
 @import "type";
 @import "dark";
 @import "icons";
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 
 .header-right p {
   margin-top: 1px;
   float: right;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 300;
 }
 
 .header-right a {
   color:inherit;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 300;
   width: fit-content;
   float: right
