@@ -48,11 +48,21 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Kartikeya, a Machine Learning Developer looking for an entry into the world of Research. 
-  As well as administrating systems I also have experience making software and web apps. 
-  I have worked at a number of companies gaining teamwork and leadership skills.
+  Fueled by a lifelong fascination with data and a knack for untangling complex equations, I'm Kartikeya Singh, a Machine Learning researcher with a passion for innovation. I've been fascinated by the world of data and equations, since I could remember. When I discovered Machine Learning (ML), it was a revelation. It allowed me to bridge the gap between my analytical instincts and real-world applications. 
 
-  I am most skilled in: <mark>Machine Learning Modelling</mark>
+  My passion for ML led me on a journey of exploration. I honed my skills at CyberPWN, building models to detect and categorize malware. At CDAC, I honed my skills in computer vision and explored various projects, further deepening my understanding of machine learning.  My most recent role at the Digital Group allowed me to delve into the fascinating world of natural language processing (NLP). This diverse exposure has equipped me with a well-rounded skillset across multiple ML domains.
+
+  However, my true calling lies in research. I thrive on the constant quest for innovation. My greatest joy comes from uncovering new ideas and applying them to solve problems in creative ways. Conferences further ignited my love for academia, and I'm currently delving into the world of ML research. I'm meticulously studying algorithms through their mathematical foundations and original research papers.
+
+  My Research Interests include:
+
+  - Machine Learning
+  - Computer Vision
+  - Natural Language Processing
+
+  Driven by a deep desire to push the boundaries of ML innovation, I am actively pursuing a research career.  The opportunity to delve deeper into the theoretical underpinnings of Machine Learning algorithms through in-depth study of original research papers excites me immensely.  I am confident that my strong analytical skills and experience in applying various ML techniques will allow me to thrive in a research setting.
+
+  Let's connect! Feel free to reach out using the email address or phone number provided in the header.
 
 content:
   - title: Projects # Title for the section
