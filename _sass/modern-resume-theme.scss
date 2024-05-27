@@ -3,20 +3,21 @@
 @import "type";
 @import "dark";
 @import "icons";
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 .header-right p {
   margin-top: 1px;
   margin-bottom: 5px;
   float: right;
-  font-family: "Noto", serif;
+  font-family: "Lora", serif;
   width: fit-content;
   font-weight: 300;
 }
 
 .header-right a {
   color:inherit;
-  font-family: "Noto", serif;
+  font-family: "Lora", serif;
   font-weight: 300;
   width: fit-content;
   float: right
