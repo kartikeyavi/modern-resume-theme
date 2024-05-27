@@ -135,7 +135,7 @@
       {%- endif -%}
       {% for link in site.websites %}
       <p>
-        {{ link.title | default: "Web" }}: {% include a.html href=link.website class="" %}{{ link.website | escape }}Click Here</a>
+        {{ link.title | default: "Web" }}: {% include a.html href=link.website %}{{ link.website | escape }}Click Here</a>
       </p>
       {%- endfor -%}
     </div>
