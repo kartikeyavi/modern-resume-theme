@@ -113,8 +113,8 @@
         {%- endif -%}
         {% for link in site.additional_links %}
         <li>
-          {% include a.html href=link.url class="button button--sacnite button--round-l" %}
-            <i class="{{link.icon}}" title="{{ link.title | escape }}"></i>
+          <a href="{{ link.url }}" target="_blank" class="{{ button button--sacnite button--round-l }}"></a>
+            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
           </a>
         </li>
         {% endfor %}
