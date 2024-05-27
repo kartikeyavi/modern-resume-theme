@@ -135,7 +135,7 @@
       {%- endif -%}
       {% for link in site.websites %}
       <p>
-        {{ site.title | default: "Web " }}:<a href="{{ link.website }}">Click Here</a>
+        {{ link.title | default: "Web " }}:<a href="{{ link.website }}">Click Here</a>
       </p>
       <br>
       {%- endfor -%}
