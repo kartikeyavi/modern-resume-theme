@@ -10,6 +10,7 @@
   margin-top: 1px;
   float: right;
   font-family: "Lora", serif;
+  width: fit-content;
   font-weight: 300;
 }
 
@@ -27,11 +28,11 @@
   }
 
   .header-right p {
-    text-align: center;
+    text-align: right;
     font-weight:100;
   }
   .header-right a {
-    align-content: center;
+    align-content: right;
     font-weight:100;
   }
 
