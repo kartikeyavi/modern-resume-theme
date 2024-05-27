@@ -133,9 +133,9 @@
       </p>
       <br>
       {%- endif -%}
-      {%- if site.website -%}
+      {% for link in site.websites %}
       <p>
-        {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        {{ link.title | default: "Web" }}: {% include a.html href=link.website class="" %}{{ link.website | escape }}Click Here</a>
       </p>
       {%- endif -%}
     </div>
