@@ -137,7 +137,7 @@
       <p>
         {{ link.title | default: "Web" }}: {% include a.html href=link.website class="" %}{{ link.website | escape }}Click Here</a>
       </p>
-      {%- endif -%}
+      {%- endfor -%}
     </div>
   </div>
 </div>
